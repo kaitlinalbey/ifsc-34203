@@ -1,0 +1,64 @@
+/* Box Sizing */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Main Container */
+
+main {
+  background-image: url("https://assets.codepen.io/7248/grid-1.png");
+  width: 80vw;
+  margin: 20px auto;
+  border: 1px solid #000;
+}
+
+/* Header */
+
+header.primary {
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  margin: 20px;
+}
+
+/* GRID LAYOUT */
+
+#content {
+
+  display: grid;
+
+  /* custom grid dimensions */
+  grid-template-columns: 700px 300px;
+
+  gap: 30px;
+
+  margin: 20px;
+}
+
+/* Blog */
+
+#blog {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+}
+
+/* Sidebar */
+
+aside {
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+}
+
+/* Footer */
+
+#colophon {
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  margin: 20px;
+}
